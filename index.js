@@ -1,36 +1,3 @@
-// var hole = document.getElementById("hole");
-// var block = document.getElementById("block");
-// var character = document.getElementById("character");
-// var jumping = 0;
-
-// hole.addEventListener('animationiteration', () => {
-//     var random = (Math.random()*100);
-//     var top = (random*3)+150;
-//     hole.style.top = -(top) + "px";
-// })
-
-// setInterval(function () {
-//     var characterTop = parseInt(window.getComputedStyle(character).getPropertyValue("top"));
-//     //gravity function
-//     if (jumping == 0) character.style.Top = (characterTop + 3) + "px";
-// }, 10);
-
-// function jump() {
-//     jumping = 1;
-//     let jump_count = 0;
-//     var jumpInterval = setInterval(function () {
-//         var characterTop = parseInt(
-//           window.getComputedStyle(character).getPropertyValue("top")
-//         );
-//         //gravity function
-//         if((character>6) && ())character.style.Top = (characterTop-5) + "px";
-//         if (jump_count > 50) {
-            
-//         }
-//         jump_count++;
-//     }, 10);
-
-// }
 
 var block = document.getElementById("block");
 var hole = document.getElementById("hole");
